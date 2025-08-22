@@ -1,0 +1,59 @@
+.information {
+    position: relative;
+    width: 100%;
+    height: 100vh;  
+    &__img {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: -180px;
+        right: 0;
+        z-index: -1;
+        & > img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__text {
+        width: 50%;
+        margin: 100px auto;
+    }
+    &__title {
+        font-family: "Onest", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+        color: $blackColor;
+        margin-bottom: 20px;
+    }
+    &__descr {
+        font-family: "Onest", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        color: $blackColor;
+        margin-bottom: 40px;
+    }
+    &__data {
+        font-family: "Onest", sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 120%;
+        color: $mainColor;
+        padding: 10px 0;
+        text-align: center;
+        border-top: 3px solid $mainColor;
+        border-bottom: 3px solid $mainColor;
+        margin-bottom: 30px;
+    }
+    &__hearts {
+        margin-bottom: 15px;
+    }
+    &__posscriptum {
+        font-family: "Onest", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        color: $blackColor;
+    }
+}

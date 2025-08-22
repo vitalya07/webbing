@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: $blackColor;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+span {
+    display: block;
+}
+input, button {
+    display: block;
+    border: 0;
+    outline: none;
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+img {
+    object-fit: cover;
+}
