@@ -1,13 +1,12 @@
 .information {
     position: relative;
-    width: 100%;
-    height: 100vh;  
+    padding: 100px 0;
     &__img {
-        width: 50%;
+        width: 30%;
         height: auto;
         position: absolute;
-        top: -180px;
-        right: 0;
+        top: 0px;
+        right: 20px;
         z-index: -1;
         & > img {
             width: 100%;
